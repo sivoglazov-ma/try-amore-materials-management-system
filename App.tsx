@@ -3,11 +3,17 @@ import { Header } from "./components/Header";
 import { SearchBar } from "./components/SearchBar";
 import { MaterialCard } from "./components/MaterialCard";
 import { MaterialForm } from "./components/MaterialForm";
-import imgReciepPhoto from "figma:asset/20f579316b47d397eec5b77e8ce9d50586daef08.png";
-import imgReciepPhoto1 from "figma:asset/a09f180d105ee3e3b7e9b928c9dd68abe792a5ad.png";
-import imgReciepPhoto2 from "figma:asset/3424b96eb19833fec7cdff843bcfa73635c87b50.png";
-import imgReciepPhoto3 from "figma:asset/9d1de1ff8fe8afcea7c6de8a55678e9bb19c2343.png";
-import imgReciepPhoto4 from "figma:asset/bca7858586759f09d39c14d27ed18e898939fa81.png";
+//import imgReciepPhoto from "figma:asset/20f579316b47d397eec5b77e8ce9d50586daef08.png";
+//import imgReciepPhoto1 from "figma:asset/a09f180d105ee3e3b7e9b928c9dd68abe792a5ad.png";
+//import imgReciepPhoto2 from "figma:asset/3424b96eb19833fec7cdff843bcfa73635c87b50.png";
+//import imgReciepPhoto3 from "figma:asset/9d1de1ff8fe8afcea7c6de8a55678e9bb19c2343.png";
+//import imgReciepPhoto4 from "figma:asset/bca7858586759f09d39c14d27ed18e898939fa81.png";
+
+import imgReciepPhoto from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
+import imgReciepPhoto1 from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
+import imgReciepPhoto2 from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
+import imgReciepPhoto3 from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
+import imgReciepPhoto4 from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
 
 interface Material {
   id: number;
