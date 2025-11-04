@@ -1,17 +1,23 @@
 {
-  "name": "your-react-app",
+  "name": "my-project",
+  "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "mkdir -p dist && cp -r components/ styles/ App.tsx index.html dist/",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "vite": "^4.4.0",
-    "@vitejs/plugin-react": "^4.0.0"
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.0"
   }
 }
