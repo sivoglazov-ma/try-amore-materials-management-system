@@ -9,11 +9,11 @@ import { MaterialForm } from "./components/MaterialForm";
 //import imgReciepPhoto3 from "figma:asset/9d1de1ff8fe8afcea7c6de8a55678e9bb19c2343.png";
 //import imgReciepPhoto4 from "figma:asset/bca7858586759f09d39c14d27ed18e898939fa81.png";
 
-import imgReciepPhoto from "/images/e57fcc3a-76ad-480e-9173-bafc7cf1256b";
-import imgReciepPhoto1 from "/images/e57fcc3a-76ad-480e-9173-bafc7cf1256b";
-import imgReciepPhoto2 from "/images/e57fcc3a-76ad-480e-9173-bafc7cf1256b";
-import imgReciepPhoto3 from "/images/e57fcc3a-76ad-480e-9173-bafc7cf1256b";
-import imgReciepPhoto4 from "/images/e57fcc3a-76ad-480e-9173-bafc7cf1256b";
+import imgReciepPhoto from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
+import imgReciepPhoto1 from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
+import imgReciepPhoto2 from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
+import imgReciepPhoto3 from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
+import imgReciepPhoto4 from "./images/e57fcc3a-76ad-480e-9173-bafc7cf1256b.png";
 
 interface Material {
   id: number;
