@@ -1,0 +1,12 @@
+{
+  "name": "my-figma-make-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Building the project...'"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
