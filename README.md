@@ -1,7 +1,7 @@
 
   # Создание экрана приложения
 
-  This is a code bundle for Создание экрана приложения
+  This is a code bundle for Создание экрана приложения mms
   ## Running the code
 
   Run `npm i` to install the dependencies.
