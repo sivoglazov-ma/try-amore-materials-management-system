@@ -18,8 +18,14 @@ jobs:
     - run: npm install
     - run: npm run build
     
+    # Проверяем что папка build создана
+    - name: Check build folder
+      run: |
+        echo "Contents of build folder:"
+        ls -la build/
+    
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
         name: build-result
-        path: dist/
+        path: build/  # ← меняем с dist/ на build/
