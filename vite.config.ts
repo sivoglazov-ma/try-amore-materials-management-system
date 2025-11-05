@@ -5,6 +5,23 @@
 
   export default defineConfig({
     plugins: [react()],
+    base: './',
+    // Добавил для исправления абсолютных на относительные пути
+    resolve: {
+      extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+      alias: {
+        // ... твои алиасы остаются без изменений
+        '@': path.resolve(__dirname, './src'),
+      },
+    },
+    build: {
+      target: 'esnext',
+      outDir: 'build',
+    },
+    server: {
+      port: 3000,
+      open: true,
+    },
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
