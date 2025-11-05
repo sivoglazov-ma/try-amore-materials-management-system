@@ -20,16 +20,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          # Убрали cache: 'npm' - теперь нет ошибки про lock file
 
       - name: Install dependencies
         run: npm install
 
       - name: Build project
         run: npm run build
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
